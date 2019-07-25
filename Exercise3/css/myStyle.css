@@ -1,0 +1,38 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.basic-container{
+    height: 100vh;
+    width: 100vw;
+}
+
+.basic-container .flex-container-2-divisions {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.basic-container .flex-container-2-divisions .wrapper-container-2-divisions {
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+}
+
+#background_image1{
+    background-image: url("../images/background-8.jpg");
+}
+
+#background_image2{
+    background-image: url("../images/background-1.jpg");
+}
+/*.basic-container .flex-container-2-divisions .background_image1 {*/
+/*    background-image: url("../images/background-1.jpg");*/
+/*    width: 50%;*/
+/*    height: 100%;*/
+/*}*/
+/*.basic-container .flex-container-2-divisions .background_image2 {*/
+/*    background-image: url("../images/background-2.jpg");*/
+/*    width: 50%;*/
+/*    height: 100%;*/
+/*}*/
