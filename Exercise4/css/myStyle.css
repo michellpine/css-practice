@@ -67,6 +67,7 @@ html, body{
 
 .flex-container .body-container .text-container .main-text {
     font-family: 'PT Serif', serif;
+    text-align: center;
     font-size: 4em;
 }
 
