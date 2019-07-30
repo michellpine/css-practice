@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95ad4bc8-0e23-49ed-b88c-ab29ca820a8d" name="Default Changelist" comment="" />
+    <list default="true" id="233b510a-4504-4fc2-b40e-d88e764f34f7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Exercise6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/myStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Exercise5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Exercise5/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="1OYyrZP417PY0AeFu3ItAz9xyxt" />
+  <component name="ProjectId" id="1OgzZlOzWR5ElogrqVYDZpnphxx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -50,12 +58,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="95ad4bc8-0e23-49ed-b88c-ab29ca820a8d" name="Default Changelist" comment="" />
-      <created>1564169023043</created>
+      <changelist id="233b510a-4504-4fc2-b40e-d88e764f34f7" name="Default Changelist" comment="" />
+      <created>1564414085400</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1564169023043</updated>
-      <workItem from="1564169024304" duration="13078000" />
+      <updated>1564414085400</updated>
+      <workItem from="1564414086529" duration="28333000" />
     </task>
     <servers />
   </component>

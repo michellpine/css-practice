@@ -1,0 +1,249 @@
+html, body, p, hr{
+    margin: 0;
+    padding: 0;
+}
+
+.flex-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #FDF0EA;
+    background-image: url("../images/stars-bg.png");
+}
+
+
+.flex-container .header-container {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.flex-container .header-container .main-title {
+    font-weight: bold;
+    font-size: 5ex;
+    color: 	#89D5D3;
+    padding: 2%;
+}
+
+.flex-container .header-container .main-title .sup-text {
+    font-size: 1ex;
+}
+
+.flex-container .header-container .subtitle{
+    width: 85%;
+    color: gray;
+    font-size: 80%;
+    line-height: 25px;
+}
+
+.flex-container .cards-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 95%;
+    height: 55%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+.flex-container .cards-container .cards-container-inner {
+    margin: 1%;
+    width: 23%;
+
+    -webkit-box-shadow: 0px 14px 7px -1px rgba(166,154,166,0.46);
+    -moz-box-shadow: 0px 14px 7px -1px rgba(166,154,166,0.46);
+    box-shadow: 0px 14px 7px -1px rgba(166,154,166,0.46);
+}
+
+
+.flex-container .cards-container .cards-container-inner .card-container{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.flex-container .cards-container .cards-container-inner .card-container .img-container {
+    position: relative;
+    padding-bottom: 35%;
+    border-radius: 50%;
+    background: white;
+    width: 35%;
+
+}
+
+.flex-container .cards-container .cards-container-inner .card-container .img-container svg {
+    position: absolute;
+    height: 50%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.flex-container .cards-container .cards-container-inner .card-container .step-number {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 1ex;
+    letter-spacing: 1px;
+    margin: 5%;
+}
+
+.flex-container .cards-container .cards-container-inner .card-container hr.separator {
+    border: 0;
+    height: 2px;
+    width: 90%;
+    background-image: linear-gradient(to right, lightgray 33%, yellow 33%, yellow 66%, lightgray 66%);
+}
+
+.flex-container .cards-container .cards-container-inner .card-container .step-description {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    line-height: 20px;
+    font-weight: 100;
+    font-size: 75%;
+    color: white;
+    width: 90%;
+    height: 45%;
+    margin-top: 5%;
+}
+
+.flex-container .cards-container .cards-container-inner .card-container .footer-card-container {
+    background-color: white;
+    height: 13%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-container .cards-container .cards-container-inner .card-container .footer-card-container .footer-card-text {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2ex;
+    color: gray;
+}
+
+.flex-container .description-text {
+    width: 60%;
+    margin: auto;
+
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    line-height: 28px;
+    font-size: 80%;
+    color: gray;
+}
+
+.flex-container footer {
+    height: auto;
+}
+
+.flex-container .button-container {
+    height: 35%;
+    margin: 1%;
+}
+
+.flex-container .button-container .button {
+    font-family: 'Roboto', sans-serif;
+    background-color: #89D5D3;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 1ex;
+    color: white;
+    margin: auto;
+    width: 7%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#first-card {
+    background: -webkit-linear-gradient(-45deg, rgba(243, 199, 91, 1) 0%, rgba(243, 199, 91, 1) 17%, rgba(136, 217, 162, 1) 52%, rgba(12, 245, 160, 1) 100%);
+}
+
+#second-card {
+    background: -webkit-linear-gradient(-45deg, rgba(108,207,205,1) 0%, rgba(108,207,205,1) 17%, rgba(153,164,186,1) 52%, rgba(207,130,176,1) 100%);
+}
+
+#third-card {
+    background: -webkit-linear-gradient(-45deg, rgba(237,103,141,1) 0%, rgba(237,103,141,1) 17%, rgba(240,152,107,1) 52%, rgba(241,192,85,1) 100%);
+}
+
+#fourth-card {
+    background: -webkit-linear-gradient(-45deg, rgba(243, 199, 91, 1) 0%, rgba(243, 199, 91, 1) 17%, rgba(136, 217, 162, 1) 52%, rgba(12, 245, 160, 1) 100%);
+}
+
+/* Smartphone screens */
+@media (max-width: 1023px) {
+
+    .flex-container .header-container .main-title {
+        font-size: 3ex;
+    }
+
+    .flex-container .header-container .subtitle{
+        font-size: 75%;
+    }
+
+    .flex-container .cards-container {
+        height: 100%;
+    }
+
+    .flex-container .cards-container .cards-container-inner {
+        width: 46%;
+        margin: 1%;
+    }
+
+    .flex-container .cards-container .cards-container-inner:nth-child(1){
+        height: 42%;
+    }
+    .flex-container .cards-container .cards-container-inner:nth-child(2){
+        height: 42%;
+    }
+    .flex-container .cards-container .cards-container-inner:nth-child(3){
+        height: 52%;
+    }
+    .flex-container .cards-container .cards-container-inner:nth-child(4){
+        height: 52%;
+    }
+
+    .flex-container .cards-container .cards-container-inner .card-container .img-container {
+        padding-bottom: 25%;
+        margin-top: 5%;
+        width: 25%;
+    }
+
+    .flex-container .cards-container .cards-container-inner .card-container .step-number {
+        margin-top: 3%;
+    }
+
+    .flex-container .cards-container .cards-container-inner .card-container .step-description {
+        font-size: 1ex;
+        height: 40%;
+    }
+
+    .flex-container .cards-container .cards-container-inner .card-container .footer-card-container .footer-card-text {
+        font-size: 2ex;
+    }
+
+    .flex-container .cards-container .cards-container-inner:nth-child(1) .card-container .footer-card-container {
+        height: 15%;
+    }
+
+    .flex-container .cards-container .cards-container-inner:nth-child(2) .card-container .footer-card-container {
+        height: 15%;
+    }
+
+    .flex-container footer {
+        display: none;
+    }
+
+}
+
+
+
